@@ -1,0 +1,16 @@
+# Design artifacts
+design-artifacts/
+
+# Documentation / specs
+GUIDE-IMPLEMENTATION.md
+specificaitons-informations.md
+docs/
+
+# AI agent configs
+.gemini/
+.cursor/
+.claude/
+.agents/
+.agent/
+_bmad/
+_bmad-output/
