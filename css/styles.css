@@ -311,6 +311,7 @@ body {
   color: var(--color-gray-mid);
   margin-top: 20px;
   padding-bottom: var(--section-padding-y);
+  text-align: center;
 }
 
 /* -- Desktop hero layout -- */
