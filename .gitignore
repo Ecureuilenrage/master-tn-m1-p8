@@ -14,3 +14,10 @@ docs/
 .agent/
 _bmad/
 _bmad-output/
+
+# Local dependencies / deployment state
+node_modules/
+.vercel/
+.env
+.env.example
+

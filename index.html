@@ -19,6 +19,23 @@
         <img src="img/paris8-logo.png" alt="Université Paris 8" class="hero__logo-img">
         <span class="hero__logo-text">Université Paris 8<br>des créations</span>
       </a>
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </button>
+        <ul class="nav__list" id="nav-menu">
+          <li><a href="#difference" class="nav__link">Why us</a></li>
+          <li><a href="#specialities" class="nav__link">Specialities</a></li>
+          <li><a href="#whatwedo" class="nav__link">Courses</a></li>
+          <li><a href="#teaching" class="nav__link">Team</a></li>
+          <li><a href="#studentlife" class="nav__link">Student Life</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#faq" class="nav__link">FAQ</a></li>
+          <li><a href="#admissions" class="nav__link">Admissions</a></li>
+        </ul>
+      </nav>
       <a class="hero__cta" href="mailto:contact@master-tn-paris8.fr">Work with us</a>
     </header>
 
@@ -48,8 +65,54 @@
     </div>
   </section>
 
+  <!-- ========== WHAT MAKES THIS MASTER DIFFERENT ========== -->
+  <section id="difference" class="difference reveal">
+    <div class="difference__container">
+      <h2 class="difference__title">What Makes This Master <em>Different?</em></h2>
+      <p class="difference__subtitle">Shaping responsible digital futures through transdisciplinary practice.</p>
+
+      <div class="difference__grid">
+        <article class="difference__card">
+          <span class="difference__card-number">01</span>
+          <h3 class="difference__card-heading">Transdisciplinary approach</h3>
+          <p class="difference__card-text">The Master brings together humanities, social sciences, information and communication studies, law, economics, computer science, and ergonomics, enabling students to analyse and act on digital change from multiple perspectives.</p>
+        </article>
+
+        <article class="difference__card">
+          <span class="difference__card-number">02</span>
+          <h3 class="difference__card-heading">Responsible & participatory transitions</h3>
+          <p class="difference__card-text">The programme emphasises co-design, user-centred methods, and ethical considerations in digital transformation projects, preparing graduates to support responsible, inclusive, and socially grounded transitions.</p>
+        </article>
+
+        <article class="difference__card">
+          <span class="difference__card-number">03</span>
+          <h3 class="difference__card-heading">Project-based pedagogy</h3>
+          <p class="difference__card-text">Teaching is organised around concrete projects with public institutions, local authorities, NGOs, and private companies, so that students gain practical experience before entering the labour market.</p>
+        </article>
+
+        <article class="difference__card">
+          <span class="difference__card-number">04</span>
+          <h3 class="difference__card-heading">Diverse & flexible pathways</h3>
+          <p class="difference__card-text">The Master offers full-time, work-based learning (apprenticeship), continuing education, and distance-learning options, making it accessible to students from different backgrounds and professional situations.</p>
+        </article>
+
+        <article class="difference__card">
+          <span class="difference__card-number">05</span>
+          <h3 class="difference__card-heading">Research & innovation ecosystems</h3>
+          <p class="difference__card-text">Embedded within the Master in Digital Humanities at Paris 8 with links to research laboratories (e.g. Paragraphe) and initiatives such as the EUR ArTeC, fostering a strong connection between research and practice.</p>
+        </article>
+
+        <article class="difference__card">
+          <span class="difference__card-number">06</span>
+          <h3 class="difference__card-heading">International & critical digital watch</h3>
+          <p class="difference__card-text">The programme integrates international digital watch and critical analysis of digital trends, helping students move beyond media-driven hype and build a solid, interdisciplinary knowledge base.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <!-- ========== SPECIALITIES ========== -->
-  <section class="specialities reveal">
+  <section id="specialities" class="specialities reveal">
     <div class="specialities__header">
       <h2 class="specialities__title">Master's degree<br><em>specialities</em></h2>
     </div>
@@ -101,7 +164,7 @@
   <section id="whatwedo" class="whatwedo reveal">
     <div class="whatwedo__container">
       <h2 class="whatwedo__title">What <em>we do</em></h2>
-      <p class="whatwedo__subtitle">Elevate your mind and make your mark in history.</p>
+      <p class="whatwedo__subtitle">The programme combines theoretical and applied courses in digital technologies, transition management, user research, and participatory design. Teaching is project-based and collaborative, with real-world digital transition projects carried out in partnership with local authorities, public institutions, NGOs, and private organisations.</p>
 
       <div class="whatwedo__tags">
         <a href="#" class="whatwedo__tag">Initiation to no code program <span class="whatwedo__tag-arrow">→</span></a>
@@ -115,7 +178,7 @@
   </section>
 
   <!-- ========== TEACHING TEAMS ========== -->
-  <section class="teaching reveal">
+  <section id="teaching" class="teaching reveal">
     <div class="teaching__container">
       <h2 class="teaching__title">Teaching Teams</h2>
 
@@ -150,7 +213,7 @@
   </section>
 
   <!-- ========== WHAT OUR STUDENTS SAY ========== -->
-  <section class="testimonials reveal">
+  <section id="testimonials" class="testimonials reveal">
     <div class="testimonials__container">
       <div class="testimonials__header">
         <h2 class="testimonials__title">What Our<br>Students Say</h2>
@@ -209,8 +272,42 @@
     </div>
   </section>
 
+  <!-- ========== STUDENT LIFE ========== -->
+  <section id="studentlife" class="studentlife reveal">
+    <div class="studentlife__container">
+      <h2 class="studentlife__title">Student <em>Life</em></h2>
+      <p class="studentlife__intro">Beyond the classroom, students benefit from an active ecosystem of associations, research groups, and professional networks related to digital technologies, transition and social innovation.</p>
+
+      <div class="studentlife__grid">
+        <article class="studentlife__card">
+          <div class="studentlife__card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="studentlife__card-heading">Associations & Communities</h3>
+          <p class="studentlife__card-text">Student associations and research groups focused on digital technologies, social innovation, and creative projects foster a collaborative and supportive learning environment.</p>
+        </article>
+
+        <article class="studentlife__card">
+          <div class="studentlife__card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <h3 class="studentlife__card-heading">Events & Workshops</h3>
+          <p class="studentlife__card-text">Regular workshops, conferences, hackathons, and project days bring together students, researchers, practitioners, and industry partners for hands-on collaboration.</p>
+        </article>
+
+        <article class="studentlife__card">
+          <div class="studentlife__card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3 class="studentlife__card-heading">Networking & Careers</h3>
+          <p class="studentlife__card-text">Professional networks and career events connect students with industry partners, fostering knowledge exchange and opening career opportunities in the field of responsible digital transitions.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <!-- ========== STUDENTS PROJECTS ========== -->
-  <section class="projects reveal">
+  <section id="projects" class="projects reveal">
     <div class="projects__container">
       <h2 class="projects__title">Students Projects</h2>
 
@@ -221,7 +318,7 @@
         <div class="projects__item projects__item--4"><img src="img/project/project4.png" alt="Certiphy.io" class="projects__item-img"></div>
         <div class="projects__item projects__item--5"><img src="img/project/project5.png" alt="OpenAI Creative Lab" class="projects__item-img"></div>
         <div class="projects__item projects__item--6"><img src="img/project/juline-gomont-bis.jpeg" alt="Project 6" class="projects__item-img"></div>
-        <div class="projects__item projects__item--7"><img src="img/project/juline-gomont-bis.jpeg" alt="Project 7" class="projects__item-img"></div>
+        <div class="projects__item projects__item--7"><img src="img/project/logo-graphisme1.jpeg" alt="Project 7" class="projects__item-img"></div>
         <div class="projects__item projects__item--8"><img src="img/project/project8.png" alt="Ville des Lilas" class="projects__item-img"></div>
         <div class="projects__item projects__item--9"><img src="img/project/juline-gomont-bis.jpeg" alt="Project 9" class="projects__item-img"></div>
         <div class="projects__item projects__item--10"><img src="img/project/juline-gomont-bis.jpeg" alt="Project 10" class="projects__item-img"></div>
@@ -232,9 +329,10 @@
   </section>
 
   <!-- ========== PARTENERSHIPS ========== -->
-  <section class="partnerships reveal">
+  <section id="partnerships" class="partnerships reveal">
     <div class="partnerships__container">
-      <h2 class="partnerships__title">Partenerships</h2>
+      <h2 class="partnerships__title">Partnerships</h2>
+      <p class="partnerships__intro">The programme develops close partnerships with public institutions, local authorities, cultural organisations, NGOs, and private companies involved in digital innovation. These partnerships support teaching through case studies, guest lectures, live projects, internships, and joint research initiatives.</p>
 
       <div class="partnerships__logos">
         <div class="partnerships__track">
@@ -253,7 +351,7 @@
   </section>
 
   <!-- ========== FAQ ========== -->
-  <section class="faq reveal">
+  <section id="faq" class="faq reveal">
     <div class="faq__container">
       <div class="faq__header">
         <h2 class="faq__title">FAQs</h2>
@@ -356,6 +454,37 @@
     </div>
   </section>
 
+  <!-- ========== ADMISSIONS ========== -->
+  <section id="admissions" class="admissions reveal">
+    <div class="admissions__container">
+      <h2 class="admissions__title">Admissions & <em>Applications</em></h2>
+
+      <div class="admissions__grid">
+        <article class="admissions__card">
+          <span class="admissions__card-number">01</span>
+          <h3 class="admissions__card-heading">Admission Criteria</h3>
+          <p class="admissions__card-text">Admission is granted to candidates holding a Bachelor's degree (or equivalent, 180 ECTS) in fields related to communication, digital humanities, information and communication sciences, sociology, geography, administration, or digital technologies. Applications are assessed on academic background, motivation, and relevance of the candidate's project.</p>
+        </article>
+
+        <article class="admissions__card">
+          <span class="admissions__card-number">02</span>
+          <h3 class="admissions__card-heading">Application Process</h3>
+          <p class="admissions__card-text">Submit an application via Monmaster or Campus France, with your curriculum, academic transcripts, a motivation letter, and a proof of language proficiency.</p>
+        </article>
+
+        <article class="admissions__card">
+          <span class="admissions__card-number">03</span>
+          <h3 class="admissions__card-heading">Key Dates</h3>
+          <p class="admissions__card-text">Applications typically open in the spring for entry in the following academic year, with an early deadline and a standard deadline. Exact dates are published annually and may vary depending on candidate status (EU/non-EU, continuing education, apprenticeship, distance learning).</p>
+        </article>
+      </div>
+
+      <div class="admissions__cta-wrapper">
+        <a class="admissions__cta" href="mailto:stavroula.bellos@univ-paris8.fr">Apply Now</a>
+      </div>
+    </div>
+  </section>
+
   <!-- ========== WHAT'S NEXT ========== -->
   <section id="whatsnext" class="whatsnext reveal">
     <div class="whatsnext__container">
@@ -368,7 +497,7 @@
           </div>
           <div class="whatsnext__content">
             <h3 class="whatsnext__job-title">Digital Transition Officer</h3>
-            <p class="whatsnext__job-desc">Accompagne les organisations dans leur transformation numérique</p>
+            <p class="whatsnext__job-desc">Supports organisations through their digital transformation, integrating technological, social, and organisational perspectives</p>
           </div>
         </article>
 
@@ -378,7 +507,7 @@
           </div>
           <div class="whatsnext__content">
             <h3 class="whatsnext__job-title">Project Manager</h3>
-            <p class="whatsnext__job-desc">Mène des projets numériques de la conception à la livraison</p>
+            <p class="whatsnext__job-desc">Leads digital projects from conception to delivery, coordinating diverse stakeholders and ensuring quality outcomes</p>
           </div>
         </article>
 
@@ -387,8 +516,8 @@
             <img src="img/hijabi-graduate.jpeg" alt="Service Designer" class="whatsnext__image">
           </div>
           <div class="whatsnext__content">
-            <h3 class="whatsnext__job-title">Service Designer</h3>
-            <p class="whatsnext__job-desc">Conçoit des services numériques centrés sur l'utilisateur</p>
+            <h3 class="whatsnext__job-title">UX & Service Designer</h3>
+            <p class="whatsnext__job-desc">Designs user-centred digital services and experiences using co-design and participatory methods</p>
           </div>
         </article>
 
@@ -397,8 +526,8 @@
             <div class="whatsnext__image whatsnext__image--placeholder"></div>
           </div>
           <div class="whatsnext__content">
-            <h3 class="whatsnext__job-title">Coordinator of Digital Innovation Project</h3>
-            <p class="whatsnext__job-desc">Coordonne les projets d'innovation numérique dans les organisations</p>
+            <h3 class="whatsnext__job-title">Digital Innovation Coordinator</h3>
+            <p class="whatsnext__job-desc">Coordinates digital innovation projects in public services, NGOs, cultural institutions, and private companies</p>
           </div>
         </article>
       </div>
@@ -411,7 +540,7 @@
       <div class="footer__split">
         <div class="footer__left">
           <div class="footer__left-content">
-            <img src="img/paris8-logo-.png" alt="Université Paris 8" class="footer__logo">
+            <img src="img\logo_paris8_blanc.png" class="footer__logo">
             <p class="footer__brand">Master Transitions<br><span class="footer__brand--accent">Numériques</span></p>
             <img src="img/group photo end of website.jpeg" alt="Photo de groupe du Master Transitions Numériques" class="footer__group-photo">
           </div>
@@ -441,6 +570,71 @@
       </div>
     </div>
   </footer>
+
+  <div
+    class="chatbot"
+    data-chatbot
+    data-greeting="Hello! I can help you understand the Master Transitions Numeriques, student life at Paris 8, access, careers, and useful official links."
+    data-fallback="I can only answer from validated programme content and official links. For changing or missing information, please use the official contact or admissions pages."
+  >
+    <button class="chatbot__teaser" type="button" data-chatbot-teaser hidden>
+      Ask me anything about the Master, Paris 8, admissions, student life, or access.
+    </button>
+
+    <button
+      class="chatbot__launcher"
+      type="button"
+      aria-controls="chatbot-panel"
+      aria-expanded="false"
+      aria-label="Open the Paris 8 chatbot"
+      data-chatbot-launcher
+    >
+      <span class="chatbot__launcher-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5A8.4 8.4 0 0 1 8 18.7L3 20l1.3-5A8.4 8.4 0 0 1 3.9 12 8.5 8.5 0 1 1 21 11.5Z"></path>
+        </svg>
+      </span>
+      <span class="chatbot__launcher-label">Ask Paris 8</span>
+    </button>
+
+    <section class="chatbot__panel" id="chatbot-panel" aria-hidden="true" data-chatbot-panel>
+      <div class="chatbot__panel-header">
+        <div>
+          <p class="chatbot__eyebrow">Paris 8 Guide</p>
+          <h2 class="chatbot__title">Master Chatbot</h2>
+        </div>
+        <button class="chatbot__close" type="button" aria-label="Close chatbot" data-chatbot-close>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M6 6l12 12"></path>
+            <path d="M18 6L6 18"></path>
+          </svg>
+        </button>
+      </div>
+
+      <p class="chatbot__intro">Validated programme content only. For changing or missing information, use official links.</p>
+      <div class="chatbot__status" aria-live="polite" data-chatbot-status></div>
+      <div class="chatbot__messages" role="log" aria-live="polite" aria-relevant="additions text" data-chatbot-messages></div>
+
+      <div class="chatbot__suggestions" data-chatbot-suggestions>
+        <button class="chatbot__suggestion" type="button" data-chatbot-suggestion>Are international students welcome?</button>
+        <button class="chatbot__suggestion" type="button" data-chatbot-suggestion>What can I do after the master?</button>
+        <button class="chatbot__suggestion" type="button" data-chatbot-suggestion>How do I apply?</button>
+      </div>
+
+      <form class="chatbot__form" data-chatbot-form>
+        <label class="chatbot__sr-only" for="chatbot-input">Your question</label>
+        <textarea
+          class="chatbot__input"
+          id="chatbot-input"
+          rows="1"
+          maxlength="700"
+          placeholder="Ask about the master, Paris 8, admissions, or access..."
+          data-chatbot-input
+        ></textarea>
+        <button class="chatbot__send" type="submit" data-chatbot-send>Send</button>
+      </form>
+    </section>
+  </div>
 
 </body>
 </html>

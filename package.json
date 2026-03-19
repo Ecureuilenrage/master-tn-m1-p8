@@ -1,0 +1,11 @@
+{
+  "name": "english-website",
+  "private": true,
+  "scripts": {
+    "serve": "npx vercel dev --local --listen 3000",
+    "check": "node --check api/chat.js && node --check js/main.js"
+  },
+  "dependencies": {
+    "openai": "^5.10.2"
+  }
+}

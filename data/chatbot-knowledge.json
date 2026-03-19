@@ -1,0 +1,346 @@
+{
+  "version": "1.0.0",
+  "defaultLocale": "en",
+  "ui": {
+    "teaser": "Ask me anything about the Master, Paris 8, admissions, student life, or access.",
+    "assistantGreeting": "Hello! I can help you understand the Master Transitions Numeriques, student life at Paris 8, access, careers, and useful official links.",
+    "fallbackMessage": "I can only answer from validated programme content and official links. For changing or missing information, please use the official contact or admissions pages.",
+    "defaultSuggestions": [
+      "Are international students welcome?",
+      "What can I do after the master?",
+      "How do I apply?",
+      "How do I get to Paris 8?"
+    ]
+  },
+  "importantLinks": [
+    {
+      "label": "Official master page",
+      "url": "https://www.univ-paris8.fr/-Master-Transitions-numeriques-",
+      "type": "official"
+    },
+    {
+      "label": "Humanites numeriques contacts",
+      "url": "https://humanites-numeriques.univ-paris8.fr/Contacts",
+      "type": "official"
+    },
+    {
+      "label": "Applications and enrolment",
+      "url": "https://www.univ-paris8.fr/-Candidature-inscription-",
+      "type": "official"
+    },
+    {
+      "label": "International students",
+      "url": "https://www.univ-paris8.fr/en/international-student",
+      "type": "official"
+    },
+    {
+      "label": "International office",
+      "url": "https://www.univ-paris8.fr/en/contact-the-international-relations-and-cooperation-office-serci",
+      "type": "official"
+    },
+    {
+      "label": "Access and maps",
+      "url": "https://www.univ-paris8.fr/Acces-et-plans",
+      "type": "official"
+    },
+    {
+      "label": "CFA Numia",
+      "url": "https://www.cfa-numia.fr/",
+      "type": "partner"
+    },
+    {
+      "label": "Classes on this page",
+      "url": "#whatwedo",
+      "type": "internal"
+    },
+    {
+      "label": "Career outcomes on this page",
+      "url": "#whatsnext",
+      "type": "internal"
+    }
+  ],
+  "entries": [
+    {
+      "id": "master-overview",
+      "title": "Master overview",
+      "priority": 10,
+      "validated": true,
+      "tags": [
+        "master",
+        "overview",
+        "programme",
+        "program",
+        "about",
+        "digital transition",
+        "transdisciplinary",
+        "paris 8"
+      ],
+      "content": "The Master in Digital Transition at Universite Paris 8 prepares students to design and manage responsible digital transitions through a transdisciplinary approach. It combines technological, social, organisational, legal, and communication perspectives and aims to help students co-create inclusive and sustainable digital solutions.",
+      "links": [
+        {
+          "label": "Official master page",
+          "url": "https://www.univ-paris8.fr/-Master-Transitions-numeriques-",
+          "type": "official"
+        }
+      ],
+      "suggestions": [
+        "What makes this master different?",
+        "Who is this master for?"
+      ]
+    },
+    {
+      "id": "specialities-and-courses",
+      "title": "Specialities and courses",
+      "priority": 9,
+      "validated": true,
+      "tags": [
+        "specialities",
+        "courses",
+        "classes",
+        "curriculum",
+        "skills",
+        "communication",
+        "law",
+        "computer science",
+        "project management",
+        "psychology",
+        "no code",
+        "digital tools"
+      ],
+      "content": "The site presents four main specialities: digital communication, digital law, information and computer science, and project management. The page also highlights practical topics such as no-code, digital communication tools, digital law, databases, psychology, and English for communication. The curriculum is designed so students can start from different backgrounds and build both critical and practical digital skills.",
+      "links": [
+        {
+          "label": "Classes on this page",
+          "url": "#whatwedo",
+          "type": "internal"
+        },
+        {
+          "label": "Official master page",
+          "url": "https://www.univ-paris8.fr/-Master-Transitions-numeriques-",
+          "type": "official"
+        }
+      ],
+      "suggestions": [
+        "What skills will I learn?",
+        "What classes are offered?"
+      ]
+    },
+    {
+      "id": "teaching-methods-and-partnerships",
+      "title": "Teaching methods and partnerships",
+      "priority": 8,
+      "validated": true,
+      "tags": [
+        "project based learning",
+        "teaching",
+        "pedagogy",
+        "teachers",
+        "team",
+        "partnerships",
+        "research",
+        "real projects"
+      ],
+      "content": "Teaching is project-based and collaborative. Students work on real cases with interdisciplinary teams and external partners from public institutions, local authorities, NGOs, and companies. The page names teachers from communication, law, information science, and psychology, and the official programme page also highlights strong links with research and innovation ecosystems.",
+      "links": [
+        {
+          "label": "Official master page",
+          "url": "https://www.univ-paris8.fr/-Master-Transitions-numeriques-",
+          "type": "official"
+        }
+      ],
+      "suggestions": [
+        "Who are the teachers?",
+        "What makes this master different?"
+      ]
+    },
+    {
+      "id": "international-students",
+      "title": "International students and languages",
+      "priority": 10,
+      "validated": true,
+      "tags": [
+        "international",
+        "foreign students",
+        "erasmus",
+        "campus france",
+        "english",
+        "language",
+        "multilingual",
+        "abroad"
+      ],
+      "content": "The current site explicitly says international students are welcome, and the official programme presents the degree as open to students from different academic and professional backgrounds. For international procedures, visas, exchanges, or mobility support, students should use the official Paris 8 international pages because those details can change and depend on the student profile.",
+      "links": [
+        {
+          "label": "International students",
+          "url": "https://www.univ-paris8.fr/en/international-student",
+          "type": "official"
+        },
+        {
+          "label": "International office",
+          "url": "https://www.univ-paris8.fr/en/contact-the-international-relations-and-cooperation-office-serci",
+          "type": "official"
+        }
+      ],
+      "suggestions": [
+        "Are international students welcome?",
+        "Can I study in English?"
+      ]
+    },
+    {
+      "id": "admissions",
+      "title": "Admissions and application guidance",
+      "priority": 10,
+      "validated": true,
+      "tags": [
+        "admissions",
+        "apply",
+        "application",
+        "criteria",
+        "documents",
+        "deadline",
+        "calendar",
+        "campus france",
+        "mon master"
+      ],
+      "content": "Admission is based on academic background, motivation, and the fit between the candidate project and the programme focus. The content available locally mentions a Bachelor degree or equivalent and an application file that can include a CV, transcripts, a motivation letter, and sometimes language proof. Exact dates and procedures can change each year, so the chatbot must not invent a calendar and should always send the user to the official admissions pages for the current campaign.",
+      "links": [
+        {
+          "label": "Applications and enrolment",
+          "url": "https://www.univ-paris8.fr/-Candidature-inscription-",
+          "type": "official"
+        },
+        {
+          "label": "Official master page",
+          "url": "https://www.univ-paris8.fr/-Master-Transitions-numeriques-",
+          "type": "official"
+        }
+      ],
+      "suggestions": [
+        "How do I apply?",
+        "What background do I need?"
+      ]
+    },
+    {
+      "id": "apprenticeship-and-study-modes",
+      "title": "Apprenticeship and study modes",
+      "priority": 8,
+      "validated": true,
+      "tags": [
+        "apprenticeship",
+        "alternance",
+        "study mode",
+        "distance learning",
+        "continuing education",
+        "cfa"
+      ],
+      "content": "The current site says apprenticeships are highly recommended and points students to CFA Numia. The official master page also states that the programme is available in initial training, continuing education, apprenticeship, and distance learning. For the exact availability of each mode in a given year, students should verify the official programme and admissions pages.",
+      "links": [
+        {
+          "label": "CFA Numia",
+          "url": "https://www.cfa-numia.fr/",
+          "type": "partner"
+        },
+        {
+          "label": "Official master page",
+          "url": "https://www.univ-paris8.fr/-Master-Transitions-numeriques-",
+          "type": "official"
+        }
+      ],
+      "suggestions": [
+        "Can I do an apprenticeship?",
+        "Is distance learning available?"
+      ]
+    },
+    {
+      "id": "careers",
+      "title": "Career outcomes",
+      "priority": 9,
+      "validated": true,
+      "tags": [
+        "careers",
+        "jobs",
+        "after graduation",
+        "work",
+        "placements",
+        "outcomes",
+        "ux",
+        "project manager",
+        "digital transition officer"
+      ],
+      "content": "The site and content documents point to careers such as digital transition officer, project manager, service designer, digital innovation coordinator, developer, community manager, UX or UI designer, and compliance-oriented roles. Graduates are positioned at the intersection of digital technologies, social transformation, and project management in public services, cultural institutions, NGOs, and private organisations.",
+      "links": [
+        {
+          "label": "Career outcomes on this page",
+          "url": "#whatsnext",
+          "type": "internal"
+        },
+        {
+          "label": "Official master page",
+          "url": "https://www.univ-paris8.fr/-Master-Transitions-numeriques-",
+          "type": "official"
+        }
+      ],
+      "suggestions": [
+        "What can I do after the master?",
+        "What companies do students work for?"
+      ]
+    },
+    {
+      "id": "paris8-spirit-and-campus",
+      "title": "Paris 8 spirit and campus access",
+      "priority": 8,
+      "validated": true,
+      "tags": [
+        "paris 8",
+        "campus",
+        "access",
+        "saint denis",
+        "metro",
+        "line 13",
+        "spirit",
+        "critical thinking",
+        "address"
+      ],
+      "content": "The current site describes Paris 8 as a place for critical thinking and social engagement. The official access page states that the main campus is in Saint-Denis, with the main entrance on rue Guynemer, opposite the Saint-Denis Universite metro station on line 13. The postal address is 2 rue de la Liberte, 93526 Saint-Denis cedex.",
+      "links": [
+        {
+          "label": "Access and maps",
+          "url": "https://www.univ-paris8.fr/Acces-et-plans",
+          "type": "official"
+        }
+      ],
+      "suggestions": [
+        "How do I get to Paris 8?",
+        "What is the spirit of Paris 8?"
+      ]
+    },
+    {
+      "id": "contacts",
+      "title": "Official contacts",
+      "priority": 10,
+      "validated": true,
+      "tags": [
+        "contacts",
+        "email",
+        "secretariat",
+        "office",
+        "phone",
+        "stavroula",
+        "a168",
+        "humanites numeriques"
+      ],
+      "content": "The official Humanites numeriques contact page lists the programme address at Universite Paris 8, 2 rue de la Liberte, 93526 Saint-Denis cedex. It also lists Stavroula Bellos, office A168, phone 01 49 40 67 58, and the Humanites numeriques contacts page for programme coordination and administrative questions.",
+      "links": [
+        {
+          "label": "Humanites numeriques contacts",
+          "url": "https://humanites-numeriques.univ-paris8.fr/Contacts",
+          "type": "official"
+        }
+      ],
+      "suggestions": [
+        "How can I contact the programme?",
+        "Where is the office?"
+      ]
+    }
+  ]
+}

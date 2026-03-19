@@ -1,23 +1,7 @@
 
 Master’s presentation 
 
-FAQ - 
 
-What kind of background ? 
-How many students
-Openness to international student
-Why choose this master
-What makes this master different 
-Who are the teachers
-What skills will i learn
-Can i do apprenticeships 
-What companies do student work for
-What are the jobs i can do after the master
-What is paris 8
-Its spirit
-Where can i eat
-Contacts
-How to access 
 
 Redaction: 
 
