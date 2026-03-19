@@ -35,8 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if (index > max) index = max;
       currentIndex = index;
 
-      if (visibleCards.length > 0 && visibleCards[currentIndex]) {
-        const offset = visibleCards[currentIndex].offsetLeft - track.offsetLeft;
+      if (visibleCards.length > 0 && visibleCards[0]) {
+        const cardWidth = visibleCards[0].getBoundingClientRect().width;
+        const gap = parseFloat(getComputedStyle(track).gap) || 0;
+        const offset = currentIndex * (cardWidth + gap);
         track.style.transform = `translateX(-${offset}px)`;
       } else {
         track.style.transform = 'translateX(0)';
