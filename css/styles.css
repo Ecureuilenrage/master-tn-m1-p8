@@ -514,47 +514,16 @@ body {
   max-width: 480px;
 }
 
-/* -- Device mockups -- */
-.specialities__devices {
-  position: relative;
-  width: 100%;
-  max-width: 320px;
+/* -- Decorative blob -- */
+.specialities__decoration {
+  width: clamp(160px, 20vw, 280px);
+  height: clamp(120px, 15vw, 220px);
   margin: 40px auto 0;
-  aspect-ratio: 4 / 3;
-}
-
-.specialities__device {
-  position: absolute;
-  border-radius: 12px;
-  background: var(--color-white);
-  border: 2px solid #d0d0d0;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  overflow: hidden;
-}
-
-.specialities__device-screen {
-  width: 100%;
-  height: 100%;
-  background: var(--color-gray-light);
-}
-
-.specialities__device--ipad {
-  width: 75%;
-  height: 85%;
-  top: 0;
-  left: 0;
-  border-radius: 14px;
-  z-index: 1;
-}
-
-.specialities__device--iphone {
-  width: 35%;
-  height: 70%;
-  bottom: 0;
-  right: 8%;
-  border-radius: 18px;
-  z-index: 2;
-  border-width: 3px;
+  background: var(--color-accent);
+  border-radius: 60% 40% 70% 30% / 50% 60% 40% 50%;
+  opacity: 0.8;
+  transform: rotate(-12deg);
+  filter: blur(0.5px);
 }
 
 /* Tablet: 2 columns cards */
@@ -589,10 +558,10 @@ body {
     margin-top: 60px;
   }
 
-  .specialities__devices {
-    width: 260px;
+  .specialities__decoration {
+    width: 200px;
+    height: 260px;
     margin: 0;
-    aspect-ratio: 3 / 4;
   }
 }
 
@@ -601,8 +570,9 @@ body {
     gap: 56px 80px;
   }
 
-  .specialities__devices {
-    width: 320px;
+  .specialities__decoration {
+    width: 260px;
+    height: 320px;
   }
 }
 
