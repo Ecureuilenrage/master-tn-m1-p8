@@ -1878,7 +1878,7 @@ body {
   position: fixed;
   right: 18px;
   bottom: 18px;
-  z-index: 80;
+  z-index: 9999;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -1974,6 +1974,9 @@ body {
 }
 
 .chatbot__panel {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  right: 0;
   width: min(390px, calc(100vw - 24px));
   max-height: min(680px, calc(100vh - 100px));
   display: flex;
@@ -2271,12 +2274,8 @@ body {
   .chatbot {
     right: 12px;
     bottom: 12px;
-    left: 12px;
-    align-items: stretch;
-  }
-
-  .chatbot__launcher {
-    align-self: flex-end;
+    left: auto;
+    align-items: flex-end;
   }
 
   .chatbot__panel {
