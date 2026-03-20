@@ -200,6 +200,7 @@ body {
   padding: 10px 0;
   transition: color 0.2s ease;
   display: block;
+  white-space: nowrap;
 }
 
 .nav__link:hover {
@@ -1736,24 +1737,25 @@ body {
   color: var(--color-white);
   padding: 48px 0;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .footer__left-content {
-  max-width: 400px;
+  max-width: 500px;
   text-align: center;
 }
 
 .footer__logo {
-  height: 48px;
+  height: 80px;
   width: auto;
-  margin: 0 auto 20px;
+  margin: 0 auto 24px;
 }
 
 .footer__brand {
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: clamp(20px, 3vw, 28px);
+  font-size: clamp(28px, 4vw, 40px);
   text-transform: uppercase;
   color: var(--color-white);
   line-height: 1.1;
