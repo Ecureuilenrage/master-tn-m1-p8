@@ -310,7 +310,7 @@ body {
   font-style: italic;
   font-size: 16px;
   color: var(--color-gray-mid);
-  margin-top: 20px;
+  margin-top:40px;
   padding-bottom: var(--section-padding-y);
   text-align: center;
 }
